@@ -1,131 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="21" passed="21">
+<testng-results skipped="0" failed="1" total="21" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="117966" started-at="2020-03-03T03:23:15Z" finished-at="2020-03-03T03:25:13Z">
+  <suite name="Suite" duration-ms="149886" started-at="2020-03-03T18:28:20Z" finished-at="2020-03-03T18:30:50Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="117966" started-at="2020-03-03T03:23:15Z" finished-at="2020-03-03T03:25:13Z">
+    <test name="Test" duration-ms="149886" started-at="2020-03-03T18:28:20Z" finished-at="2020-03-03T18:30:50Z">
       <class name="com.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.LoginPageTest@c0edeb]" name="setUp" is-config="true" duration-ms="11446" started-at="2020-03-03T08:53:41Z" finished-at="2020-03-03T08:53:52Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.LoginPageTest@3884b2]" name="setUp" is-config="true" duration-ms="16095" started-at="2020-03-03T23:58:47Z" finished-at="2020-03-03T23:59:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:0, instance:com.tests.LoginPageTest@c0edeb]" name="verifyLoginPageTitleTest" duration-ms="1558" started-at="2020-03-03T08:53:52Z" finished-at="2020-03-03T08:53:54Z">
+        <test-method status="FAIL" signature="verifyLoginPageTitleTest()[pri:0, instance:com.tests.LoginPageTest@3884b2]" name="verifyLoginPageTitleTest" duration-ms="2191" started-at="2020-03-03T23:59:04Z" finished-at="2020-03-03T23:59:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Login - My Store.] but found [Login - My Store]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Login - My Store.] but found [Login - My Store]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.tests.LoginPageTest.verifyLoginPageTitleTest(LoginPageTest.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.tests.LoginPageTest@c0edeb]" name="loginTest" duration-ms="2913" started-at="2020-03-03T08:53:54Z" finished-at="2020-03-03T08:53:57Z">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.tests.LoginPageTest@3884b2]" name="loginTest" duration-ms="3022" started-at="2020-03-03T23:59:08Z" finished-at="2020-03-03T23:59:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="verifyLoginTest()[pri:2, instance:com.tests.LoginPageTest@c0edeb]" name="verifyLoginTest" duration-ms="147" started-at="2020-03-03T08:53:57Z" finished-at="2020-03-03T08:53:57Z">
+        <test-method status="PASS" signature="verifyLoginTest()[pri:2, instance:com.tests.LoginPageTest@3884b2]" name="verifyLoginTest" duration-ms="190" started-at="2020-03-03T23:59:11Z" finished-at="2020-03-03T23:59:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method status="PASS" signature="verifyAccountPageTitleTest()[pri:3, instance:com.tests.LoginPageTest@c0edeb]" name="verifyAccountPageTitleTest" duration-ms="10" started-at="2020-03-03T08:53:57Z" finished-at="2020-03-03T08:53:57Z">
+        <test-method status="PASS" signature="verifyAccountPageTitleTest()[pri:3, instance:com.tests.LoginPageTest@3884b2]" name="verifyAccountPageTitleTest" duration-ms="20" started-at="2020-03-03T23:59:11Z" finished-at="2020-03-03T23:59:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAccountPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.LoginPageTest@c0edeb]" name="tearDown" is-config="true" duration-ms="819" started-at="2020-03-03T08:53:57Z" finished-at="2020-03-03T08:53:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.LoginPageTest@3884b2]" name="tearDown" is-config="true" duration-ms="1035" started-at="2020-03-03T23:59:11Z" finished-at="2020-03-03T23:59:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.LoginPageTest -->
       <class name="com.tests.CreateAccountPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.CreateAccountPageTest@23a2f9]" name="setUp" is-config="true" duration-ms="15323" started-at="2020-03-03T08:53:15Z" finished-at="2020-03-03T08:53:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.CreateAccountPageTest@101b7af]" name="setUp" is-config="true" duration-ms="15698" started-at="2020-03-03T23:58:20Z" finished-at="2020-03-03T23:58:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:0, instance:com.tests.CreateAccountPageTest@23a2f9]" name="verifyLoginPageTitleTest" duration-ms="2370" started-at="2020-03-03T08:53:30Z" finished-at="2020-03-03T08:53:33Z">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:0, instance:com.tests.CreateAccountPageTest@101b7af]" name="verifyLoginPageTitleTest" duration-ms="2033" started-at="2020-03-03T23:58:36Z" finished-at="2020-03-03T23:58:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="createAccountTest()[pri:1, instance:com.tests.CreateAccountPageTest@23a2f9]" name="createAccountTest" duration-ms="7079" started-at="2020-03-03T08:53:33Z" finished-at="2020-03-03T08:53:40Z">
+        <test-method status="PASS" signature="createAccountTest()[pri:1, instance:com.tests.CreateAccountPageTest@101b7af]" name="createAccountTest" duration-ms="8817" started-at="2020-03-03T23:58:38Z" finished-at="2020-03-03T23:58:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccountTest -->
-        <test-method status="PASS" signature="verifyAccountTest()[pri:2, instance:com.tests.CreateAccountPageTest@23a2f9]" name="verifyAccountTest" duration-ms="149" started-at="2020-03-03T08:53:40Z" finished-at="2020-03-03T08:53:40Z">
+        <test-method status="PASS" signature="verifyAccountTest()[pri:2, instance:com.tests.CreateAccountPageTest@101b7af]" name="verifyAccountTest" duration-ms="124" started-at="2020-03-03T23:58:46Z" finished-at="2020-03-03T23:58:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAccountTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.CreateAccountPageTest@23a2f9]" name="tearDown" is-config="true" duration-ms="925" started-at="2020-03-03T08:53:40Z" finished-at="2020-03-03T08:53:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.CreateAccountPageTest@101b7af]" name="tearDown" is-config="true" duration-ms="930" started-at="2020-03-03T23:58:47Z" finished-at="2020-03-03T23:58:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.CreateAccountPageTest -->
       <class name="com.tests.CheckoutProcessPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.CheckoutProcessPageTest@7fa833]" name="setUp" is-config="true" duration-ms="16595" started-at="2020-03-03T08:54:29Z" finished-at="2020-03-03T08:54:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.CheckoutProcessPageTest@1832929]" name="setUp" is-config="true" duration-ms="19229" started-at="2020-03-03T23:59:49Z" finished-at="2020-03-04T00:00:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyaddProductToCartTest()[pri:0, instance:com.tests.CheckoutProcessPageTest@7fa833]" name="verifyaddProductToCartTest" duration-ms="12426" started-at="2020-03-03T08:54:46Z" finished-at="2020-03-03T08:54:58Z">
+        <test-method status="PASS" signature="verifyaddProductToCartTest()[pri:0, instance:com.tests.CheckoutProcessPageTest@1832929]" name="verifyaddProductToCartTest" duration-ms="16539" started-at="2020-03-04T00:00:08Z" finished-at="2020-03-04T00:00:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyaddProductToCartTest -->
-        <test-method status="PASS" signature="navigateToCheckoutPageTest()[pri:1, instance:com.tests.CheckoutProcessPageTest@7fa833]" name="navigateToCheckoutPageTest" duration-ms="2073" started-at="2020-03-03T08:54:58Z" finished-at="2020-03-03T08:55:00Z">
+        <test-method status="PASS" signature="navigateToCheckoutPageTest()[pri:1, instance:com.tests.CheckoutProcessPageTest@1832929]" name="navigateToCheckoutPageTest" duration-ms="5124" started-at="2020-03-04T00:00:25Z" finished-at="2020-03-04T00:00:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToCheckoutPageTest -->
-        <test-method status="PASS" signature="verifyOrderPageTitleTest()[pri:2, instance:com.tests.CheckoutProcessPageTest@7fa833]" name="verifyOrderPageTitleTest" duration-ms="29" started-at="2020-03-03T08:55:00Z" finished-at="2020-03-03T08:55:00Z">
+        <test-method status="PASS" signature="verifyOrderPageTitleTest()[pri:2, instance:com.tests.CheckoutProcessPageTest@1832929]" name="verifyOrderPageTitleTest" duration-ms="25" started-at="2020-03-04T00:00:30Z" finished-at="2020-03-04T00:00:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOrderPageTitleTest -->
-        <test-method status="PASS" signature="verifySummaryTab()[pri:3, instance:com.tests.CheckoutProcessPageTest@7fa833]" name="verifySummaryTab" duration-ms="341" started-at="2020-03-03T08:55:00Z" finished-at="2020-03-03T08:55:00Z">
+        <test-method status="PASS" signature="verifySummaryTab()[pri:3, instance:com.tests.CheckoutProcessPageTest@1832929]" name="verifySummaryTab" duration-ms="318" started-at="2020-03-04T00:00:30Z" finished-at="2020-03-04T00:00:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySummaryTab -->
-        <test-method status="PASS" signature="checkTermsOfService()[pri:4, instance:com.tests.CheckoutProcessPageTest@7fa833]" name="checkTermsOfService" duration-ms="4627" started-at="2020-03-03T08:55:00Z" finished-at="2020-03-03T08:55:05Z">
+        <test-method status="PASS" signature="checkTermsOfService()[pri:4, instance:com.tests.CheckoutProcessPageTest@1832929]" name="checkTermsOfService" duration-ms="7036" started-at="2020-03-04T00:00:30Z" finished-at="2020-03-04T00:00:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTermsOfService -->
-        <test-method status="PASS" signature="verifyPaymentTab()[pri:5, instance:com.tests.CheckoutProcessPageTest@7fa833]" name="verifyPaymentTab" duration-ms="240" started-at="2020-03-03T08:55:05Z" finished-at="2020-03-03T08:55:05Z">
+        <test-method status="PASS" signature="verifyPaymentTab()[pri:5, instance:com.tests.CheckoutProcessPageTest@1832929]" name="verifyPaymentTab" duration-ms="372" started-at="2020-03-04T00:00:37Z" finished-at="2020-03-04T00:00:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPaymentTab -->
-        <test-method status="PASS" signature="paymentProcessTest()[pri:6, instance:com.tests.CheckoutProcessPageTest@7fa833]" name="paymentProcessTest" duration-ms="3304" started-at="2020-03-03T08:55:05Z" finished-at="2020-03-03T08:55:09Z">
+        <test-method status="PASS" signature="paymentProcessTest()[pri:6, instance:com.tests.CheckoutProcessPageTest@1832929]" name="paymentProcessTest" duration-ms="6319" started-at="2020-03-04T00:00:38Z" finished-at="2020-03-04T00:00:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paymentProcessTest -->
-        <test-method status="PASS" signature="verifyOrderConfirmationPageTitleTest()[pri:7, instance:com.tests.CheckoutProcessPageTest@7fa833]" name="verifyOrderConfirmationPageTitleTest" duration-ms="47" started-at="2020-03-03T08:55:09Z" finished-at="2020-03-03T08:55:09Z">
+        <test-method status="PASS" signature="verifyOrderConfirmationPageTitleTest()[pri:7, instance:com.tests.CheckoutProcessPageTest@1832929]" name="verifyOrderConfirmationPageTitleTest" duration-ms="29" started-at="2020-03-04T00:00:44Z" finished-at="2020-03-04T00:00:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOrderConfirmationPageTitleTest -->
-        <test-method status="PASS" signature="verifyorderConfirmationMsgTest()[pri:8, instance:com.tests.CheckoutProcessPageTest@7fa833]" name="verifyorderConfirmationMsgTest" duration-ms="119" started-at="2020-03-03T08:55:09Z" finished-at="2020-03-03T08:55:09Z">
+        <test-method status="PASS" signature="verifyorderConfirmationMsgTest()[pri:8, instance:com.tests.CheckoutProcessPageTest@1832929]" name="verifyorderConfirmationMsgTest" duration-ms="90" started-at="2020-03-04T00:00:44Z" finished-at="2020-03-04T00:00:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyorderConfirmationMsgTest -->
-        <test-method status="PASS" signature="verifyAmountOrderHistoryTest()[pri:9, instance:com.tests.CheckoutProcessPageTest@7fa833]" name="verifyAmountOrderHistoryTest" duration-ms="2988" started-at="2020-03-03T08:55:09Z" finished-at="2020-03-03T08:55:12Z">
+        <test-method status="PASS" signature="verifyAmountOrderHistoryTest()[pri:9, instance:com.tests.CheckoutProcessPageTest@1832929]" name="verifyAmountOrderHistoryTest" duration-ms="4501" started-at="2020-03-04T00:00:44Z" finished-at="2020-03-04T00:00:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAmountOrderHistoryTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.CheckoutProcessPageTest@7fa833]" name="tearDown" is-config="true" duration-ms="895" started-at="2020-03-03T08:55:12Z" finished-at="2020-03-03T08:55:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.CheckoutProcessPageTest@1832929]" name="tearDown" is-config="true" duration-ms="1016" started-at="2020-03-04T00:00:49Z" finished-at="2020-03-04T00:00:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.CheckoutProcessPageTest -->
       <class name="com.tests.AddToCartPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.AddToCartPageTest@17e2f02]" name="setUp" is-config="true" duration-ms="16409" started-at="2020-03-03T08:53:58Z" finished-at="2020-03-03T08:54:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.AddToCartPageTest@1275dab]" name="setUp" is-config="true" duration-ms="18931" started-at="2020-03-03T23:59:12Z" finished-at="2020-03-03T23:59:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginTest()[pri:0, instance:com.tests.AddToCartPageTest@17e2f02]" name="verifyLoginTest" duration-ms="99" started-at="2020-03-03T08:54:14Z" finished-at="2020-03-03T08:54:14Z">
+        <test-method status="PASS" signature="verifyLoginTest()[pri:0, instance:com.tests.AddToCartPageTest@1275dab]" name="verifyLoginTest" duration-ms="109" started-at="2020-03-03T23:59:31Z" finished-at="2020-03-03T23:59:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method status="PASS" signature="verifyWomenStorePageTitle()[pri:1, instance:com.tests.AddToCartPageTest@17e2f02]" name="verifyWomenStorePageTitle" duration-ms="2594" started-at="2020-03-03T08:54:14Z" finished-at="2020-03-03T08:54:17Z">
+        <test-method status="PASS" signature="verifyWomenStorePageTitle()[pri:1, instance:com.tests.AddToCartPageTest@1275dab]" name="verifyWomenStorePageTitle" duration-ms="4104" started-at="2020-03-03T23:59:31Z" finished-at="2020-03-03T23:59:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWomenStorePageTitle -->
-        <test-method status="PASS" signature="verifyaddProductToCartTest()[pri:2, instance:com.tests.AddToCartPageTest@17e2f02]" name="verifyaddProductToCartTest" duration-ms="9355" started-at="2020-03-03T08:54:17Z" finished-at="2020-03-03T08:54:26Z">
+        <test-method status="PASS" signature="verifyaddProductToCartTest()[pri:2, instance:com.tests.AddToCartPageTest@1275dab]" name="verifyaddProductToCartTest" duration-ms="9912" started-at="2020-03-03T23:59:35Z" finished-at="2020-03-03T23:59:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyaddProductToCartTest -->
-        <test-method status="PASS" signature="navigateToCheckoutPageTest()[pri:3, instance:com.tests.AddToCartPageTest@17e2f02]" name="navigateToCheckoutPageTest" duration-ms="1972" started-at="2020-03-03T08:54:26Z" finished-at="2020-03-03T08:54:28Z">
+        <test-method status="PASS" signature="navigateToCheckoutPageTest()[pri:3, instance:com.tests.AddToCartPageTest@1275dab]" name="navigateToCheckoutPageTest" duration-ms="2790" started-at="2020-03-03T23:59:45Z" finished-at="2020-03-03T23:59:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToCheckoutPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.AddToCartPageTest@17e2f02]" name="tearDown" is-config="true" duration-ms="892" started-at="2020-03-03T08:54:28Z" finished-at="2020-03-03T08:54:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.AddToCartPageTest@1275dab]" name="tearDown" is-config="true" duration-ms="987" started-at="2020-03-03T23:59:48Z" finished-at="2020-03-03T23:59:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

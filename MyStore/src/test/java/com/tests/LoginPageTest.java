@@ -27,7 +27,7 @@ public class LoginPageTest extends base {
 	public void verifyLoginPageTitleTest(){
 		loginPage.clickSigninLink();
 		String title = loginPage.verifyLoginPageTitle();
-		Assert.assertEquals(title, "Login - My Store");	
+		Assert.assertEquals(title, "Login - My Store.");	
 	}
 	
 	@Test(priority=1)
