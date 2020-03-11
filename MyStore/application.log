@@ -1,0 +1,10 @@
+2020-03-11 14:18:03,233  INFO [main] LoginPageTest:26 - entering application URL
+2020-03-11 14:18:03,233  WARN [main] LoginPageTest:27 - Hey this just a warning message
+2020-03-11 14:18:03,233 FATAL [main] LoginPageTest:28 - hey this is just fatal error message
+2020-03-11 14:18:03,233 DEBUG [main] LoginPageTest:29 - this is debug message
+2020-03-11 14:18:03,472  INFO [main] LoginPageTest:35 - ****************************** starting test case *****************************************
+2020-03-11 14:18:03,472  INFO [main] LoginPageTest:36 - ****************************** verifyLoginPageTitleTest *****************************************
+2020-03-11 14:18:03,482  INFO [main] LoginPageTest:35 - ****************************** starting test case *****************************************
+2020-03-11 14:18:03,482  INFO [main] LoginPageTest:36 - ****************************** verifyLoginPageTitleTest *****************************************
+2020-03-11 14:18:03,497  INFO [main] LoginPageTest:35 - ****************************** starting test case *****************************************
+2020-03-11 14:18:03,497  INFO [main] LoginPageTest:36 - ****************************** verifyLoginPageTitleTest *****************************************

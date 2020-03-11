@@ -1,37 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.util.Listener"/>
-    <listener class-name="com.util.ExtentReporterNG"/>
-  </listeners>
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.tests.AddToCartPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.tests.AddToCartPageTest -->
-      <class name="com.tests.CheckoutProcessPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.tests.CheckoutProcessPageTest -->
-      <class name="com.tests.CreateAccountPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.tests.CreateAccountPageTest -->
       <class name="com.tests.LoginPageTest">
         <methods>
           <include name="verifyLoginPageTitleTest"/>
+          <include name="verifyAccountPageTitleTest"/>
+          <include name="verifyLoginTest"/>
+          <include name="loginTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.tests.LoginPageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

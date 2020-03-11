@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.base.base;
+import com.util.TestUtil;
 
 public class CreateAccountPage extends base  {
 	
@@ -38,23 +39,25 @@ public class CreateAccountPage extends base  {
 	}
 	
 	public void enterAccountDetails(){
-		emailCreateInput.sendKeys(prop.getProperty("emailId"));
-		createAccountButton.click();
-		firstName.sendKeys(prop.getProperty("fName"));
-		lastName.sendKeys(prop.getProperty("lName"));
-		password.sendKeys(prop.getProperty("password"));
-		address.sendKeys(prop.getProperty("address"));
-		city.sendKeys(prop.getProperty("city"));
-		state.sendKeys(prop.getProperty("state"));
-		postalCode.sendKeys(prop.getProperty("postalCode"));
-		mobilePhone.sendKeys(prop.getProperty("mobilePhone"));
+		
+		//emailCreateInput.sendKeys(prop.getProperty("emailId"));
+		
+		emailCreateInput.sendKeys(TestUtil.getSheetData(1, 0));
+		createAccountButton.click();	
+		firstName.sendKeys(TestUtil.getSheetData(1, 1));
+		lastName.sendKeys(TestUtil.getSheetData(1, 2));
+		password.sendKeys(TestUtil.getSheetData(1, 3));
+		address.sendKeys(TestUtil.getSheetData(1, 4));
+		city.sendKeys(TestUtil.getSheetData(1, 7));
+		state.sendKeys(TestUtil.getSheetData(1, 8));
+		postalCode.sendKeys(TestUtil.getSheetData(1, 9));
+		mobilePhone.sendKeys(TestUtil.getSheetData(1, 10));
 		aliasAddress.clear();
-		aliasAddress.sendKeys(prop.getProperty("aliasAddress"));
+		aliasAddress.sendKeys(TestUtil.getSheetData(1, 11));
 		registerButton.click();
 		System.out.println("User is created successfully...");
 		
 	}
-	
 	public String verifyAccount(){
 		String user = usernameText.getText();
 		return user;

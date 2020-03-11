@@ -31,7 +31,7 @@ public class CreateAccountPageTest extends base {
 	
 	@Test(priority=1)
 	public void createAccountTest(){
-		createAccountPage.enterAccountDetails();
+		createAccountPage.enterAccountDetails();		
 	}
 	
 	@Test(priority=2)
@@ -44,7 +44,7 @@ public class CreateAccountPageTest extends base {
 	
 	@AfterClass
 	public void tearDown(){
-		driver.quit();
+		//driver.quit();
 	}
 	
 }
