@@ -56,7 +56,8 @@ public class LoginPageTest extends base {
 	@Test(priority=3)
 	public void verifyAccountPageTitleTest(){
 		String title = loginPage.accountPageTitle();
-		Assert.assertEquals(title, "My account - My Store","page title not matched");
+		Assert.assertEquals(title, "My account - My Store","page title is not matched");
+		
 	}
 	
 	@AfterClass
