@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.util.Listener"/>
+    <listener class-name="com.util.ExtentReporterNG"/>
+    <listener class-name="com.util.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="com.tests.LoginPageTest">
         <methods>
@@ -13,6 +18,16 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.tests.LoginPageTest -->
+      <class name="com.tests.AddToCartPageTest">
+        <methods>
+          <include name="verifyWomenStorePageTitle"/>
+          <include name="setUp"/>
+          <include name="verifyLoginTest"/>
+          <include name="verifyaddProductToCartTest"/>
+          <include name="navigateToCheckoutPageTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tests.AddToCartPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

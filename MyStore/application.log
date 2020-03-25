@@ -1,10 +1,20 @@
-2020-03-11 14:18:03,233  INFO [main] LoginPageTest:26 - entering application URL
-2020-03-11 14:18:03,233  WARN [main] LoginPageTest:27 - Hey this just a warning message
-2020-03-11 14:18:03,233 FATAL [main] LoginPageTest:28 - hey this is just fatal error message
-2020-03-11 14:18:03,233 DEBUG [main] LoginPageTest:29 - this is debug message
-2020-03-11 14:18:03,472  INFO [main] LoginPageTest:35 - ****************************** starting test case *****************************************
-2020-03-11 14:18:03,472  INFO [main] LoginPageTest:36 - ****************************** verifyLoginPageTitleTest *****************************************
-2020-03-11 14:18:03,482  INFO [main] LoginPageTest:35 - ****************************** starting test case *****************************************
-2020-03-11 14:18:03,482  INFO [main] LoginPageTest:36 - ****************************** verifyLoginPageTitleTest *****************************************
-2020-03-11 14:18:03,497  INFO [main] LoginPageTest:35 - ****************************** starting test case *****************************************
-2020-03-11 14:18:03,497  INFO [main] LoginPageTest:36 - ****************************** verifyLoginPageTitleTest *****************************************
+2020-03-25 18:49:16,911  INFO [main] LoginPageTest:26 - entering application URL
+2020-03-25 18:49:17,019  WARN [main] LoginPageTest:27 - Hey this just a warning message
+2020-03-25 18:49:17,019 FATAL [main] LoginPageTest:28 - hey this is just fatal error message
+2020-03-25 18:49:17,020 DEBUG [main] LoginPageTest:29 - this is debug message
+2020-03-25 18:49:17,085  INFO [main] LoginPageTest:35 - ****************************** starting test case *****************************************
+2020-03-25 18:49:17,086  INFO [main] LoginPageTest:36 - ****************************** verifyLoginPageTitleTest *****************************************
+2020-03-25 18:49:25,860  INFO [main] LoginPageTest:35 - ****************************** starting test case *****************************************
+2020-03-25 18:49:25,860  INFO [main] LoginPageTest:36 - ****************************** verifyLoginPageTitleTest *****************************************
+2020-03-25 18:49:30,272  INFO [main] LoginPageTest:35 - ****************************** starting test case *****************************************
+2020-03-25 18:49:30,272  INFO [main] LoginPageTest:36 - ****************************** verifyLoginPageTitleTest *****************************************
+2020-03-25 18:55:48,742 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2020-03-25 18:55:48,746 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2020-03-25 18:55:48,750 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-03-25 18:55:48,752 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-03-25 18:55:48,753 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Acer/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-03-25 18:55:49,786 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2020-03-25 18:55:49,789 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2020-03-25 18:55:49,791 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-03-25 18:55:49,792 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-03-25 18:55:49,792 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Acer/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
