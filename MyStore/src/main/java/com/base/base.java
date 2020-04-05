@@ -19,7 +19,8 @@ public class base {
 
 	public base() {
 		prop = new Properties();
-		String filePath = "E:\\Git Assignment\\AssignmentQA_MyStore\\MyStore\\src\\main\\java\\com\\config\\config.properties";
+		String filePath = "C:\\Users\\saroj\\git\\AssignmentQA_MyStore\\MyStore\\src\\main\\java\\com\\config\\config.properties";
+	
 		try {
 			fis = new FileInputStream(filePath);
 		} catch (FileNotFoundException e) {
@@ -37,7 +38,7 @@ public class base {
 	
 	public void initialization(){
 		
-		System.setProperty("webdriver.chrome.driver", "E:\\Git Assignment\\AssignmentQA_MyStore\\MyStore\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\saroj\\git\\AssignmentQA_MyStore\\MyStore\\chromedriver.exe");
 		driver = new ChromeDriver();
 	
 		driver.manage().window().maximize();
