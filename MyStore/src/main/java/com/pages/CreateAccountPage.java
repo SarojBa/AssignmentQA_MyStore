@@ -58,8 +58,13 @@ public class CreateAccountPage extends base  {
 		System.out.println("User is created successfully...");
 		
 	}
-	public String verifyAccount(){
+	public String verifyActualAccount(){
 		String user = usernameText.getText();
+		return user;
+	}
+	
+	public String verifyExpectedAccount(){
+		String user = TestUtil.getSheetData(1, 1) + " " +TestUtil.getSheetData(1, 2);
 		return user;
 	}
 

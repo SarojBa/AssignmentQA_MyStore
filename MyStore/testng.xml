@@ -10,10 +10,10 @@
  
 	<test name="Test" preserve-order="true">
 		<classes>
-			<!-- <class name="com.tests.CreateAccountPageTest" /> -->
+			<class name="com.tests.CreateAccountPageTest" />
 			<class name="com.tests.LoginPageTest" />
 			<class name="com.tests.AddToCartPageTest" />
-			<!-- <class name="com.tests.CheckoutProcessPageTest" /> -->
+			<class name="com.tests.CheckoutProcessPageTest" />
 
 		</classes>
 	</test> <!-- Test -->

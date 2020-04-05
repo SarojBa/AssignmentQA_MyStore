@@ -39,7 +39,7 @@ public class AddToCartPageTest extends base {
 	public void verifyWomenStorePageTitle(){
 		addToCartPage.clickWomenMenu();
 		String title = addToCartPage.womenStorePageTitle();
-		Assert.assertEquals(title, "Women - My Store..");
+		Assert.assertEquals(title, "Women - My Store");
 	}
 	
 	@Test(priority=2)
