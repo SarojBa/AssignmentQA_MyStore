@@ -36,15 +36,15 @@ public class CreateAccountPageTest extends base {
 	
 	@Test(priority=2)
 	public void verifyAccountTest(){
-		String actualUser = createAccountPage.verifyAccount();
-		String expectedUser = prop.getProperty("fName")+ " " + prop.getProperty("lName");
+		String actualUser = createAccountPage.verifyActualAccount();
+		String expectedUser = createAccountPage.verifyExpectedAccount();
 		Assert.assertEquals(actualUser, expectedUser, "user not matched");
 		System.out.println("User verified");
 	}
 	
 	@AfterClass
 	public void tearDown(){
-		//driver.quit();
+		driver.quit();
 	}
 	
 }

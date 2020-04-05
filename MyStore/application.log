@@ -1,3 +1,25 @@
+<<<<<<< HEAD
+2020-04-05 11:15:10,787  INFO [main] LoginPageTest:26 - entering application URL
+2020-04-05 11:15:10,795  WARN [main] LoginPageTest:27 - Hey this just a warning message
+2020-04-05 11:15:10,795 FATAL [main] LoginPageTest:28 - hey this is just fatal error message
+2020-04-05 11:15:10,795 DEBUG [main] LoginPageTest:29 - this is debug message
+2020-04-05 11:15:10,802  INFO [main] LoginPageTest:35 - ****************************** starting test case *****************************************
+2020-04-05 11:15:10,802  INFO [main] LoginPageTest:36 - ****************************** verifyLoginPageTitleTest *****************************************
+2020-04-05 11:15:12,378  INFO [main] LoginPageTest:35 - ****************************** starting test case *****************************************
+2020-04-05 11:15:12,378  INFO [main] LoginPageTest:36 - ****************************** verifyLoginPageTitleTest *****************************************
+2020-04-05 11:15:14,629  INFO [main] LoginPageTest:35 - ****************************** starting test case *****************************************
+2020-04-05 11:15:14,629  INFO [main] LoginPageTest:36 - ****************************** verifyLoginPageTitleTest *****************************************
+2020-04-05 11:17:01,741 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-04-05 11:17:01,741 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-04-05 11:17:01,741 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-04-05 11:17:01,757 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-04-05 11:17:01,757 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saroj/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-04-05 11:17:02,237 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-04-05 11:17:02,237 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-04-05 11:17:02,237 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-04-05 11:17:02,237 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-04-05 11:17:02,237 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saroj/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+=======
 2020-03-25 18:49:16,911  INFO [main] LoginPageTest:26 - entering application URL
 2020-03-25 18:49:17,019  WARN [main] LoginPageTest:27 - Hey this just a warning message
 2020-03-25 18:49:17,019 FATAL [main] LoginPageTest:28 - hey this is just fatal error message
@@ -18,3 +40,4 @@
 2020-03-25 18:55:49,791 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 2020-03-25 18:55:49,792 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2020-03-25 18:55:49,792 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Acer/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+>>>>>>> 0b7084c627ade4ac05962fefffb3782abf1a2995

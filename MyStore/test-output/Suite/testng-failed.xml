@@ -18,9 +18,21 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.tests.LoginPageTest -->
+      <class name="com.tests.CheckoutProcessPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tests.CheckoutProcessPageTest -->
+      <class name="com.tests.CreateAccountPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyAccountTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tests.CreateAccountPageTest -->
       <class name="com.tests.AddToCartPageTest">
         <methods>
-          <include name="verifyWomenStorePageTitle"/>
           <include name="setUp"/>
           <include name="verifyLoginTest"/>
           <include name="verifyaddProductToCartTest"/>
