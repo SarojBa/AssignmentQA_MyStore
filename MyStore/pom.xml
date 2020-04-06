@@ -82,6 +82,18 @@
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.22.1</version>
+					
+					<configuration>
+					<systemPropertyVariables>
+							<emailID>${DemailID}</emailID>
+							<password>${Dpassword}</password>
+					</systemPropertyVariables>
+					
+						<suiteXmlFiles>
+							<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+						</suiteXmlFiles>
+					</configuration>
+					
 				</plugin>
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
