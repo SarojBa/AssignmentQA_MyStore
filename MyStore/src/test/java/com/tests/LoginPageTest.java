@@ -44,7 +44,13 @@ public class LoginPageTest extends base {
 	
 	@Test(priority=1)
 	public void loginTest(){
-		loginPage.login(prop.getProperty("emailId"), prop.getProperty("password"));
+		//loginPage.login(prop.getProperty("emailId"), prop.getProperty("password"));
+		
+		System.out.println("reading email id and password from Jenkins: ");
+		System.out.println(System.getProperty("emailID"));
+		System.out.println(System.getProperty("password"));
+
+		
 	}
 	
 	@Test(priority=2)
